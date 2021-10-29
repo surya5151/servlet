@@ -44,7 +44,7 @@ protected void service(HttpServletRequest request, HttpServletResponse response)
 	PrintWriter out =response.getWriter();
 	out.print("<html>");
 	out.print("<body>");	
-	out.print("<h1 style='color:Green'>");
+	out.print("<h1 style='color:blue'>");
 	out.print("Details Saved for ".concat(gymName));
 	out.print("<br>");
 	out.print("Location :".concat(location));
